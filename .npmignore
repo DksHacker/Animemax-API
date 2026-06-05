@@ -1,0 +1,9 @@
+.env
+.env.*
+node_modules/
+.husky/
+.git/
+*.log
+bun.lock
+package-lock.json
+yarn.lock
