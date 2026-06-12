@@ -32,7 +32,7 @@
     ]
   },
   "scripts": {
-    "prepare": "husky",
+    "prepare": "node -e \"process.exit(0)\"",
     "lint": "eslint",
     "lint:fix": "eslint --fix && prettier . --write",
     "dev": "bun --watch index.js",
@@ -42,7 +42,6 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@hono/node-server": "^1.13.7",
     "@hono/swagger-ui": "^0.5.2",
     "@upstash/redis": "^1.35.0",
     "axios": "^1.7.7",

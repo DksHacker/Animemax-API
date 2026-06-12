@@ -1,4 +1,4 @@
-import { NotFoundError } from '../utils/errors';
+import { NotFoundError } from '../utils/errors.js';
 
 const protect = async (c, next) => {
   try {

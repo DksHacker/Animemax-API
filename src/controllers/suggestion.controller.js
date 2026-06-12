@@ -1,7 +1,7 @@
-import { validationError } from '../utils/errors';
-import config from '../config/config';
-import { extractSuggestions } from '../extractor/extractSuggestions';
-import { axiosInstance } from '../services/axiosInstance';
+import { validationError } from '../utils/errors.js';
+import config from '../config/config.js';
+import { extractSuggestions } from '../extractor/extractSuggestions.js';
+import { axiosInstance } from '../services/axiosInstance.js';
 
 const suggestionController = async (c) => {
   const keyword = c.req.query('keyword') || null;
